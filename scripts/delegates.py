@@ -10,11 +10,11 @@ BASE_URL = "https://safe-transaction-base.safe.global/api/v1"
 
 ## Modify values here
 # 1. Add your safe
-safe = "" ## TODO: Replace with your safe address
+safe = "0x01fE3347316b2223961B20689C65eaeA71348e93" ## TODO: Replace with your safe address. Base SMS: 0x01fE3347316b2223961B20689C65eaeA71348e93
 
 
 # 2. Add your delegator. This account needs to be a owner of the safe
-_delegator = accounts.load('multi-sig-delegator') ## TODO: Load your account
+_delegator = accounts.load('llc2') ## TODO: Load your account
 
 
 # Use the Account from eth_account to make signing hashs easier
